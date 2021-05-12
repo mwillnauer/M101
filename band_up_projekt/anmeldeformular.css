@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+body {
+    background-color: black;
+    background-attachment: fixed;
+    font-family: 'Bahnschrift', 'sans serif';
+    font-size: medium;
+    color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+
+header {
+    color: #ffffff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;   
+    background-color: black;
+}
+
+#slogan {
+    text-align: right;
+}
+
+header img {
+    width: 250px;
+    height: auto;
+}
+header nav {
+    margin: 0;
+    padding: 30px;   
+    background: rgb(151, 83, 83);
+    opacity: 1;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+header nav ul a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+}
+header nav ul a:hover {
+    color: black;
+}
+
+main { 
+    padding: 30px;
+    margin-bottom: 25px;
+    background-image: url(pictures/bandindeinerregion.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#abstand {
+    height: 80px;
+} 
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+
+#flash img {
+        display: block;
+        width: 42px;
+        height: auto;
+}
+
+#concert img {
+    display: block;
+    width: 42px;
+    height: auto;
+}
+
+#musicnotes img {
+    display: block;
+    width: 42px;
+    height: auto;
+}
+
+#location img {
+    display: block;
+    width: 42px;
+    height: auto;
+}
+
+#adress table{
+    display: flex;
+
+}
+
+footer {
+    color: white;
+    padding: 30px;   
+    background: rgb(151, 83, 83);
+    opacity: 1;
+    margin: 0;
+    text-align: right;
+}
+
+#homebutton {
+    display: flex;
+    align-items: flex-end;
+    width: 32px;
+    height: auto; 
+}
